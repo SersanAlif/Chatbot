@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chatbot FAQ</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container mt-5">
+			<h1 class="text-center">Chatbot FAQ</h1>
+			<div id="chatbox" class="card">
+				<div class="card-body">
+					<div id="messages" class="overflow-auto" style="max-height: 400px"></div>
+					<div class="input-group mt-3">
+						<input type="text" id="userInput" class="form-control" placeholder="Tanya sesuatu..." />
+						<div class="input-group-append">
+							<button class="btn btn-primary" id="sendBtn">Kirim</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
